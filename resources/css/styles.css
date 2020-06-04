@@ -60,7 +60,20 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/log-in.svg);
   width: 20px;
   height: 20px;
+  animation: zoom 1s infinite ;
 }
+@keyframes zoom {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
 
 #page-home main {
   max-width: 560px;
