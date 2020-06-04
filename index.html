@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecoleta</title>
     <link rel="stylesheet" href="/resources/css/styles.css" />
+    <script src="/resources/js/main.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Ubuntu:ital,wght@0,700;1,300&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Ubuntu:ital,wght@0,700;1,300&display=swap"
+    rel="stylesheet"
     />
   </head>
   <body>
@@ -22,12 +23,24 @@
         </header>
         <main>
           <h1>Seu marketplace de coleta de resíduos</h1>
-          <p>
-            Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
+          <p id="one">
+            
           </p>
           <a href="#"> <span></span><strong>Pesquisar pontos de coleta</strong> </a>
         </main>
       </div>
     </div>
+    <script src="https://unpkg.com/ityped@1.0.3"></script>
+    <script>
+      ityped.init(document.querySelector("#one"), {
+        showCursor: false,
+        strings: ['Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente!']
+      })
+  
+      ityped.init("#placeholder", {
+        placeholder: true,
+        showCursor: false
+      })
+    </script>
   </body>
 </html>
