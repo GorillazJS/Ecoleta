@@ -120,6 +120,7 @@ background-color: #2FB86E;
 }
 @media (max-width:900px){
     #page-home{
+        background:none;
         background-position: 70vw;
     }
     #page-home .content{
